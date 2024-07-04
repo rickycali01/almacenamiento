@@ -1,0 +1,54 @@
+/* General styles */
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+  margin: 0; /* Remove default margins */
+  padding: 20px; /* Add some padding for aesthetics */
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Form styling */
+form {
+  display: flex; /* Arrange form elements horizontally */
+  flex-direction: column; /* Stack them vertically */
+  width: 400px; /* Set a fixed width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add padding for better spacing */
+  border: 1px solid #97006a; /* Add a thin border */
+  border-radius: 5px; /* Add rounded corners for a softer look */
+}
+
+label {
+  display: block; /* Make labels on separate lines */
+  margin-bottom: 5px; /* Add spacing between labels and inputs */
+  font-weight: bold; /* Emphasize labels slightly */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"] {
+  width: 100%; /* Make inputs fill the full width */
+  padding: 10px; /* Add padding for easier typing */
+  border: 1px solid #97006a; /* Add a border to inputs */
+  border-radius: 3px; /* Add rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+input[type="submit"] {
+  background-color: #4CAF50; /* Set a green background for submit button */
+  color: rgb(46, 0, 253); /* Set white text color */
+  padding: 10px 20px; /* Adjust padding for a better button size */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Indicate interactivity */
+  margin-top: 10px; /* Add top margin for spacing */
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41; /* Change background color on hover */
+}
